@@ -1,0 +1,89 @@
+body {
+    padding: 0px 5%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+nav {
+    font-family: "Segoe UI";
+    padding-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(66, 58, 58);
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.name {
+    font-family: "Permanent Marker";
+    font-size: 40px;
+    width: 100px;
+}
+
+.subscribe {
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+}
+
+.me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    padding: 0 10%;
+    justify-content: center;
+}
+
+.intro {
+    width: 60%;
+}
+
+.intro h1 {
+    font-family: "Shadows Into Light";
+    font-style: italic;
+    font-size: 25px;
+}
+
+.intro p {
+    font-family: "SchoolBell";
+    font-size: 22px;
+}
+
+.image {
+    width: 40%;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 35px;
+}
+
+blockquote {
+    font-family: "IBM Plex Mono";
+    font-style: italic;
+    border-left: 5px gray solid;
+    background-color: Aliceblue;
+    margin-left: 0px;
+    padding: 10px;
+}
+
+footer {
+    font-family: "Segoe UI";
+    border-top:  2px solid black;
+    border-bottom: solid 2px black;
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
